@@ -1,0 +1,45 @@
+1: github/git
+- githubでリポジトリ作る
+- クローンで自分のパソコンにコピー
+- ファイル更新/追加したら
+    - git add --all
+    - git commit -m"コメント書く"
+    - git push origin HEAD
+
+2: MySQL
+- mysql.server start
+- mysql -u root -p
+- パスワード入力
+- mysql操作(databese,tableなど)
+- 終わる時は
+    - exit
+    - mysql.server stop
+
+3: SpringBoot
+- 新しいプロジェクト
+- Springスタータープロジェクト
+    - 次へで使いたいライブラリをチェックする
+    - SpqingWeb/Tymeleafなど
+
+4: 勉強の仕方
+- 答えは見てもいい(コピペOK、書き写した方が覚える)
+    - コピペしてもエラーが出ることがほとんど
+    - エラーは検索して、試すを繰り返すしかない
+- 調べ方は、極力、単語を並べる
+    - 例：SpringBoot MySQL　MyBatis 接続　方法　など
+    - どれか１つの記事に絞りやってみる(できなければ別記事を参考にする)
+- コードの書き方は覚えるのではなく、理解する
+    - そのコードは何を意味してるのか
+    - 変数の中には何が入っているか
+
+5: 転職に向けて
+- 自分が利用したもの
+    - ワークポート、Green、Wantedly、doda、転職会議、派遣会社(パーソルスタッフ、リクルートスタッフ)
+    - プロフィール充実で面談増える
+
+6: 今後の勉強のやり方として推奨
+- Slackに載せたJavaのコードを理解する（覚えるのではない）
+- SpringBoot,MySQLでCRUD処理（まずは、READ処理）
+- READができたら、他の処理も
+- CRUD処理はToDoアプリを作ることで覚える
+- RaiseTechの課題、業務日付はToDoを応用したもの
